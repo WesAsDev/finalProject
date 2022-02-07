@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.img-1 {
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 30%;
+  background-color: #005308;
+  color: white;
+  border-radius: 1rem;
+}
+.img-1 img {
+  border-radius: 1rem;
+  width: 99%;
+}
+.img-1 p {
+  text-align: center;
+  margin: 5px;
+  font-style: italic;
+}
+
+.sobre {
+  margin: 1rem;
+  width: 40%;
+  text-align: center;
+}
+.sobre .topicos {
+  margin: 2rem 0 2rem 0;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #009ec1;
+  box-shadow: 0 0 6px 4px #005308;
+}
+
+/* Celulares */
+@media screen and (max-width: 528px) {
+  main {
+    padding-top: 10rem;
+  }
+  .img-1 p {
+    font-size: 1.2rem;
+  }
+
+  .img-1,
+  .sobre {
+    width: 80%;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sobre .topicos {
+    padding: 15 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10rem;
+  }
+}
