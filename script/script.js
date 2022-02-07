@@ -10,9 +10,9 @@ let backBtn = document.querySelectorAll('#back')
 
 for (let i = 0; i < nextBtn.length; i++) {
   nextBtn[i].addEventListener('click', e => {
-    e.target.parentElement.parentElement.children[2].scrollBy(100, 0)
+    e.target.parentElement.parentElement.children[2].scrollBy(300, 0)
   })
   backBtn[i].addEventListener('click', e => {
-    e.target.parentElement.parentElement.children[2].scrollBy(-100, 0)
+    e.target.parentElement.parentElement.children[2].scrollBy(-300, 0)
   })
 }

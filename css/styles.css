@@ -212,8 +212,9 @@ footer .rsociais img {
   header h1 {
     font-family: 'Rochester', cursive;
     font-weight: 300;
-    font-size: 5rem;
+    font-size: 3rem;
   }
+
   .bars {
     display: none;
   }
@@ -231,6 +232,7 @@ footer .rsociais img {
   .menu-nav {
     display: flex;
     gap: 5rem;
+    font-size: 0.8rem;
   }
   .menu-nav-item a:hover {
     transition: 1s;
